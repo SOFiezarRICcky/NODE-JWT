@@ -1,0 +1,36 @@
+{
+  "name": "latihan_middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "ejs-lint": "^0.3.0",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.1",
+    "nodemo": "^1.0.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SOFiezarRICcky/MidleWare_Node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SOFiezarRICcky/MidleWare_Node/issues"
+  },
+  "homepage": "https://github.com/SOFiezarRICcky/MidleWare_Node#readme"
+}

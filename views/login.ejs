@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+    <h1>Form Login</h1><br>
+
+    <% if(message.length > 0) {%>
+    <% message.forEach((text) => { %>
+    <p><%= text.message %></p>
+    <% }) %>
+    <% } %>
+
+
+
+    <form action="proses" method="post">
+        <input type="text" name="email" placeholder="Masukan Username Anda">
+        <br><br>
+        <input type="password" name="password" placeholder="************">
+        <br><br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+
+</html>
